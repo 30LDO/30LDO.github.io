@@ -1,0 +1,135 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 300px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+::placeholder{
+    color: white;
+}
+
+#container{
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.izquierda{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.boton{
+    background-color: #232323;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    margin-right: 10px;
+}
+
+input{
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.agregar{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 0;
+}
+
+
+.boton:hover{
+    box-shadow: inset 0 0 10px white;
+}
+
+.eliminar{
+    width: 80px;
+}
+
+.marcar{
+    width: 190px;
+}
+
+.fila{
+    background-color: white;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.vacia{
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.entregada{
+    color: rgb(48, 214, 104);
+    font-weight: bold;
+}
+
+.noEntregada{
+    color: rgb(255, 105, 105);
+    font-weight: bold;
+}
+
+.derecha{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+footer{
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+}
+
+
+footer p{
+    margin: 3px;
+    font-size: 11px;
+}
+
+
+

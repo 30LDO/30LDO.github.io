@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body onload="main()">
+    <div class="header">
+        <h1>Tareas</h1>
+    </div>
+    <form onsubmit="recibir()">
+            <input type="text" id="textbox"  name="textbox" placeholder="Ingresa la tarea aqui">
+            <input class="boton agregar" type="submit" value="Agregar">
+    </form>
+    <div id="container"></div>
+    <footer>
+        <p>Luis Diego Orozco Lopez</p>
+        <p>24011289</p>
+        <p>Del curso de Estructura de datos</p>
+    </footer>      
+    <script src="script.js"></script>
+</body>
+</html>
