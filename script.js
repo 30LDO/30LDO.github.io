@@ -144,7 +144,6 @@ function confirmar(id){
     let nombreTarea = hallar(id);
     if(confirm("Se eliminara la siguiente tarea\n\n " + nombreTarea)){
         tareas.eliminarNodo(id);
-        tareas.primeroUltimo();
         actualizar();
     }
 }
